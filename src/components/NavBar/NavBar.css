@@ -1,0 +1,31 @@
+.logoImg {
+    margin: 2em;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.list li {
+    margin: 0.5em;
+    font-size: 0.75em;
+}
+
+.list li a {
+    color:rgb(68, 166, 236);
+    text-decoration: none;
+} 
+
+.list li a:hover{
+    color: white;
+}
